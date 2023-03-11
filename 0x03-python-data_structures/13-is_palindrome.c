@@ -39,7 +39,7 @@ int is_palindrome(listint_t **head)
 		else
 		{
 			ptort->next = cut;
-			ut->next = half;
+			cut->next = half;
 		}
 	}
 	return (1);
